@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Marks Calculator</h1>
+        <p>Enter marks for three subjects.</p>
+
+        <input type="number" id="mark1" placeholder="Subject 1 marks" min="0" max="100">
+        <input type="number" id="mark2" placeholder="Subject 2 marks" min="0" max="100">
+        <input type="number" id="mark3" placeholder="Subject 3 marks" min="0" max="100">
+
+        <button onclick="calculate()">Calculate Result</button>
+
+        <h3 id="result">Your result will appear here.</h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

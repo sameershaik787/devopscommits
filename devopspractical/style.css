@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf2ff;
+    text-align: center;
+    padding: 50px 15px;
+}
+
+.container {
+    background: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 12px auto;
+    box-sizing: border-box;
+}
+
+button {
+    background: #1769d2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0b4da8;
+}
+
+#result {
+    margin-top: 20px;
+    color: #1769d2;
+}
