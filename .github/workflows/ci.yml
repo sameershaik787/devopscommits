@@ -27,11 +27,13 @@ jobs:
       - name: Build project
         run: |
           mkdir -p dist
-          cp index.html style.css script.js dist/
+          cp devopspractical/index.html dist/
+          cp devopspractical/style.css dist/
+          cp devopspractical/script.js dist/
           echo "Build completed successfully"
 
       - name: Test JavaScript syntax
-        run: node --check script.js
+        run: node --check devopspractical/script.js
 
       - name: Verify build output
         run: |
